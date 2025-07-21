@@ -1,21 +1,23 @@
--   id: textlint
-    name: textlint
-    description: ''
-    entry: textlint
-    language: node
-    'types': [markdown]
-    args: []
-    require_serial: false
-    additional_dependencies: ["textlint@15.2.0"]
-    minimum_pre_commit_version: '0'
--   id: textlint-fix
-    name: textlint
-    description: ''
-    entry: textlint
-    language: node
-    'types': [markdown]
-    args:
-        - --fix
-    require_serial: false
-    additional_dependencies: ["textlint@15.2.0"]
-    minimum_pre_commit_version: '0'
+- id: textlint
+  name: textlint
+  description: ""
+  entry: textlint
+  language: node
+  types:
+    - markdown
+  args: []
+  require_serial: false
+  additional_dependencies: ["textlint@15.2.0"]
+  minimum_pre_commit_version: "0"
+- id: textlint-fix
+  name: textlint
+  description: ""
+  entry: textlint
+  language: node
+  types:
+    - markdown
+  args:
+    - --fix
+  require_serial: false
+  additional_dependencies: ["textlint@15.2.0"]
+  minimum_pre_commit_version: "0"
