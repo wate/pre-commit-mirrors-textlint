@@ -3,8 +3,5 @@
     description: ''
     entry: textlint
     language: node
-    'types': [markdown]
-    args: []
-    require_serial: false
-    additional_dependencies: ["textlint@15.8.0"]
-    minimum_pre_commit_version: '0'
+    types: [markdown]
+    additional_dependencies: ["textlint@16.0.0"]
