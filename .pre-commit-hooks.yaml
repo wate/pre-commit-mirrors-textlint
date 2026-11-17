@@ -4,4 +4,4 @@
     entry: textlint
     language: node
     types: [markdown]
-    additional_dependencies: ["textlint@16.1.0"]
+    additional_dependencies: ["textlint@16.1.1"]
